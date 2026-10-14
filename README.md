@@ -13,6 +13,7 @@
 | [The Verge](https://www.theverge.com) | Consumer tech, policy, culture | Accessible deep-dives with a strong editorial voice. |
 | [Ars Technica](https://arstechnica.com) | Science, tech policy, hardware | Long-form journalism with technical depth. |
 | [Wired](https://www.wired.com) | Future of tech, security, culture | Magazine-quality features on emerging trends. |
+| [Calder Brief](https://calder-brief.pages.dev/ai-hub.html) | AI, tech news | Daily researched AI and technology news across research, industry, and science. |
 
 ---
 
