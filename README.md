@@ -135,6 +135,81 @@
 
 ---
 
+## 🧠 AI Agents, RAG & LLM Engineering
+
+| Resource | Focus | Why It Belongs Here |
+| --- | --- | --- |
+| [Hugging Face Agents Course](https://huggingface.co/learn/agents-course) | Tool use, agent frameworks, agentic workflows | A structured, hands-on introduction to building agents. |
+| [Anthropic — Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) | Agent architecture | A useful framework for deciding when simple workflows beat complex autonomous agents. |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful agent orchestration | Build controllable, long-running workflows with explicit state and transitions. |
+| [LlamaIndex](https://github.com/run-llama/llama_index) | RAG and data-connected LLM apps | Connect models to documents, structured data, and retrieval pipelines. |
+| [Haystack](https://github.com/deepset-ai/haystack) | Search, RAG, and agent pipelines | Modular components for production-oriented retrieval systems. |
+| [Ragas](https://github.com/explodinggradients/ragas) | RAG evaluation | Evaluate retrieval and generation instead of relying only on subjective demos. |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | LLM testing and red-teaming | Test prompts, model outputs, and adversarial cases in repeatable evaluations. |
+| [OpenTelemetry](https://opentelemetry.io/) | Observability | Trace latency, errors, and tool calls across multi-step AI systems. |
+
+**Suggested path:** build a basic RAG pipeline → create a small, hand-checked evaluation set → add tracing → compare retrieval/chunking strategies → only then add agentic tool use.
+
+## 🧪 ML Implementation, Models & Evaluation
+
+| Resource | Focus | Best Use |
+| --- | --- | --- |
+| [Dive into Deep Learning](https://d2l.ai/) | Deep learning textbook + notebooks | Learn the math and implement core ideas in code. |
+| [PyTorch Tutorials](https://pytorch.org/tutorials/) | Model training and deployment basics | A reliable reference for tensors, autograd, training loops, and transfer learning. |
+| [Hugging Face Transformers](https://github.com/huggingface/transformers) | Transformer models | Inspect model implementations and run pretrained models. |
+| [Hugging Face Diffusers](https://github.com/huggingface/diffusers) | Diffusion models | Explore pipelines, schedulers, fine-tuning, and image generation. |
+| [OpenAI Spinning Up](https://spinningup.openai.com/) | Reinforcement learning | Learn policy gradients and RL algorithms with explanations and code. |
+| [scikit-learn](https://scikit-learn.org/stable/) | Classical ML | Establish simple baselines before reaching for deep learning. |
+| [Weights & Biases — Reports](https://wandb.ai/site/reports) | Experiment tracking and ML practice | Learn how to compare experiments and communicate results. |
+| [Papers with Code — Benchmarks](https://paperswithcode.com/) | Research results and implementations | Find baseline methods and compare reported metrics; verify the original paper and code. |
+
+**Good habit:** record the dataset split, baseline, metric, random seed, and failure cases. A strong model result is more convincing when another person can reproduce it.
+
+## 🔐 Security, Privacy & AI Safety Engineering
+
+| Resource | Focus | Why Follow |
+| --- | --- | --- |
+| [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | LLM application risks | A practical checklist for prompt injection, insecure tool use, sensitive-data exposure, and related risks. |
+| [MITRE ATLAS](https://atlas.mitre.org/) | Adversarial threats to AI systems | A threat-informed map of attacks against ML-enabled systems. |
+| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | AI risk governance | Structure risk identification, measurement, and management. |
+| [Google Secure AI Framework (SAIF)](https://saif.google/) | AI security practices | Connect AI-specific threats with established security engineering. |
+| [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards) | Model documentation | Record intended use, limitations, evaluation, and known risks. |
+| [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) | Web application testing | A structured reference for security testing fundamentals. |
+
+**Agent security checklist:** treat retrieved documents and tool outputs as untrusted input; validate tool arguments; apply least privilege; restrict network/file access; log actions; and test prompt-injection attempts before deployment.
+
+## ⚙️ Systems, Infrastructure & Production Engineering
+
+| Resource | Focus | Why Follow |
+| --- | --- | --- |
+| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | Shell, Git, debugging, tooling | Practical skills that make everyday engineering work more effective. |
+| [OSTEP — Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | Operating systems | A free, detailed introduction to processes, memory, concurrency, and storage. |
+| [Computer Networking: A Top-Down Approach resources](https://gaia.cs.umass.edu/kurose_ross/index.php) | Networking | Build a conceptual foundation for protocols and networked applications. |
+| [Teach Yourself Computer Science](https://teachyourselfcs.com/) | CS fundamentals roadmap | A selective guide to algorithms, architecture, operating systems, and more. |
+| [The Linux Kernel documentation](https://docs.kernel.org/) | Linux internals | Primary documentation for understanding kernel subsystems. |
+| [Kubernetes Documentation](https://kubernetes.io/docs/home/) | Containers and orchestration | Learn deployments, services, configuration, and operations from the source. |
+| [CNCF Cloud Native Landscape](https://landscape.cncf.io/) | Cloud-native ecosystem | Discover infrastructure projects by category rather than by hype. |
+
+## 📚 Research Workflow & Paper Reading
+
+| Resource | Focus | How to Use It |
+| --- | --- | --- |
+| [Semantic Scholar](https://www.semanticscholar.org/) | Academic search | Find related papers, influential work, and citation trails. |
+| [OpenReview](https://openreview.net/) | Conference submissions and reviews | Read papers alongside public discussion and reviewer feedback where available. |
+| [Connected Papers](https://www.connectedpapers.com/) | Paper relationship graphs | Explore a research area's neighboring work from a seed paper. |
+| [Research Rabbit](https://www.researchrabbit.ai/) | Literature discovery | Track authors, papers, and related research over time. |
+| [Distill](https://distill.pub/) | Visual explanations of ML | Build intuition through interactive and visual research explanations. |
+| [Stanford CS229 notes](https://cs229.stanford.edu/main_notes.pdf) | ML foundations | Revisit mathematical foundations while reading modern ML papers. |
+
+**A compact paper-reading template**
+1. **Claim:** What does the paper say is new?
+2. **Method:** What changed compared with the strongest baseline?
+3. **Evidence:** Which datasets, metrics, and ablations support the claim?
+4. **Limits:** Where does it fail, and what assumptions does it make?
+5. **Reproduction:** Can you run the code or reproduce a small core result?
+
+---
+
 ## 🎯 How to Use This Hub
 
 **Daily (15 min):**
