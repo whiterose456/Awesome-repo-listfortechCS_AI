@@ -1,6 +1,6 @@
 # 🚀 Tech & AI Intelligence Hub
 
-> A curated collection of resources for staying current on AI, computer science, cutting-edge technology, and industry news. Ready to use.
+> A curated collection of resources for staying current on AI, computer science, cutting-edge technology, and industry news. Ready to use...
 
 ---
 
