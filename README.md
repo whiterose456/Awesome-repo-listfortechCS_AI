@@ -233,7 +233,7 @@
 
 Found a resource that belongs here? The tech landscape shifts fast, and this list should too. Open an issue or a pull request.
 
-> "Stay hungry, stay foolish." — Stewart Brand (via Steve Jobs)
+> .
 
 ---
 
